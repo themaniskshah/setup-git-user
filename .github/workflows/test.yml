@@ -25,4 +25,4 @@ jobs:
         run: |
           git commit --allow-empty --message 'git test'
           git push origin HEAD:stage
-          git push --delete origin HEAD:stage
+          git push --delete origin stage
