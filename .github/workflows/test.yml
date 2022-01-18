@@ -23,6 +23,6 @@ jobs:
         uses: ./
       - name: Test the action by creating and deleting a commit
         run: |
-          git commit --allow-empty --message 'git test'
-          git push origin HEAD:stage
+          git commit --allow-empty --message 'add to master branch'
+          git push origin HEAD:master
           git push --delete origin stage
